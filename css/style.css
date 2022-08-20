@@ -16,4 +16,5 @@ input{
 
 #button-calculate-imc{
   margin-left: 225px;
+  cursor: pointer;
 }
