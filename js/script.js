@@ -22,7 +22,7 @@ function handleButtonClick(){
 
   var imc = calculateImc(weight,height);
   var formateImc = imc.toFixed(2).replace(".", ",");
-
+  //toFixed é quantas casas decimais eu quero
   //textContent é para receber o conteúdo.
   imcResult.textContent = formateImc;
   //console.log(imc);
