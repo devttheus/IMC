@@ -1,5 +1,9 @@
-function testeSoma(soma) {
-  soma+=soma;
-  console.log("teste no javascript");
-  return soma;
+function start(){
+  console.log("start function");
 }
+
+function calculateImc(weight, height){
+  return weight / (height * height);
+}
+
+start();
